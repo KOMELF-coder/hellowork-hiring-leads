@@ -3,10 +3,12 @@
   "title": "Company signals and coverage report",
   "properties": {
     "companies": {
+      "type": "string",
       "title": "Company hiring signals",
       "template": "{{links.apiDefaultDatasetUrl}}/items"
     },
     "report": {
+      "type": "string",
       "title": "Coverage and warnings",
       "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/RUN_REPORT"
     }

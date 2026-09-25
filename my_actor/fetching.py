@@ -22,18 +22,33 @@ class Fetcher:
         self.client = client or httpx.AsyncClient(timeout=25, follow_redirects=False, trust_env=False,
                                                   verify=ssl.create_default_context(),
                                                   headers={'User-Agent': USER_AGENT},
-                                                  limits=httpx.Limits(max_connections=1))
+                                                  limits=httpx.Limits(max_connections=4, max_keepalive_connections=4))
         self.sleep, self.jitter = sleep, jitter
         self.policy = None
         self.requests = 0
+        self._pace_lock = asyncio.Lock()
+        self._last_request_started = 0.0
+
+    async def _pace(self):
+        """Globally pace request starts while still allowing several in-flight requests."""
+        if not self.jitter:
+            return
+        async with self._pace_lock:
+            loop = asyncio.get_running_loop()
+            # Keep aggregate traffic around 2–3 requests/second, with slight jitter
+            # to avoid synchronized bursts when multiple detail tasks are waiting.
+            min_interval = random.uniform(0.35, 0.50)
+            elapsed = loop.time() - self._last_request_started
+            if elapsed < min_interval:
+                await self.sleep(min_interval - elapsed)
+            self._last_request_started = loop.time()
 
     async def close(self):
         await self.client.aclose()
 
     async def _request(self, url):
         for attempt in range(3):
-            if self.jitter:
-                await self.sleep(random.uniform(1, 2))
+            await self._pace()
             try:
                 # Public unauthenticated HTTP only; never replay Set-Cookie.
                 self.client.cookies.clear()

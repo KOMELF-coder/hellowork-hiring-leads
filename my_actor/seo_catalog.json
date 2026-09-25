@@ -1,0 +1,19 @@
+{
+  "cybersecurite": {
+    "france": "/fr-fr/emploi/mot-cle_cybersecurite.html",
+    "lille": "/fr-fr/emploi/mot-cle_cybersecurite-ville_lille-59000.html",
+    "paris": "/fr-fr/emploi/mot-cle_cybersecurite-ville_paris-75000.html",
+    "nice": "/fr-fr/emploi/mot-cle_cybersecurite-ville_nice-06000.html",
+    "toulouse": "/fr-fr/emploi/mot-cle_cybersecurite-ville_toulouse-31000.html",
+    "lyon": "/fr-fr/emploi/mot-cle_cybersecurite-ville_lyon-69000.html",
+    "nantes": "/fr-fr/emploi/mot-cle_cybersecurite-ville_nantes-44000.html",
+    "rennes": "/fr-fr/emploi/mot-cle_cybersecurite-ville_rennes-35000.html"
+  },
+  "developpeur": {
+    "france": "/fr-fr/emploi/metier_developpeur.html",
+    "hauts-de-france": "/fr-fr/emploi/metier_developpeur-region_hauts-de-france.html"
+  },
+  "devops": {"france": "/fr-fr/emploi/metier_devops.html"},
+  "developpeur drupal": {"france": "/fr-fr/emploi/metier_developpeur-drupal.html"},
+  "analyste programmeur as 400": {"france": "/fr-fr/emploi/metier_analyste-programmeur-as-400.html"}
+}

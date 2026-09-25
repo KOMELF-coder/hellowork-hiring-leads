@@ -1,0 +1,394 @@
+[
+  {
+    "raw_jobs": 2,
+    "unique_jobs": 2,
+    "retained_jobs": 2,
+    "final_companies": 2,
+    "pages": [
+      {
+        "expected_jobs": 2,
+        "parsed_cards": 2,
+        "warnings": [],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_analyste-programmeur-as-400.html",
+        "status": 200
+      }
+    ],
+    "warnings": [],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/metier_analyste-programmeur-as-400.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 19,
+    "final_companies": 11,
+    "pages": [
+      {
+        "expected_jobs": 9299,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-drupal.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-drupal.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 18,
+    "final_companies": 15,
+    "pages": [
+      {
+        "expected_jobs": 364,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-region_hauts-de-france.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-region_hauts-de-france.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 19,
+    "pages": [
+      {
+        "expected_jobs": 5231,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/metier_developpeur.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 16,
+    "pages": [
+      {
+        "expected_jobs": 1546,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/metier_devops.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 14,
+    "pages": [
+      {
+        "expected_jobs": 614,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lille-59000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lille-59000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 19,
+    "pages": [
+      {
+        "expected_jobs": 562,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lyon-69000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lyon-69000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 16,
+    "pages": [
+      {
+        "expected_jobs": 408,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nantes-44000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nantes-44000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 8,
+    "pages": [
+      {
+        "expected_jobs": 840,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nice-06000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nice-06000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 16,
+    "pages": [
+      {
+        "expected_jobs": 5169,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_paris-75000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_paris-75000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 18,
+    "final_companies": 15,
+    "pages": [
+      {
+        "expected_jobs": 402,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_rennes-35000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Jobs outside the date window or with unknown/lower-bound ages were excluded.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_rennes-35000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 19,
+    "final_companies": 15,
+    "pages": [
+      {
+        "expected_jobs": 681,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_toulouse-31000.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_toulouse-31000.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 20,
+    "unique_jobs": 20,
+    "retained_jobs": 20,
+    "final_companies": 6,
+    "pages": [
+      {
+        "expected_jobs": 12965,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 2,
+    "input": {
+      "start_urls": [
+        "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html"
+      ],
+      "posted_within_days": 90,
+      "collect_job_details": false
+    }
+  },
+  {
+    "raw_jobs": 40,
+    "unique_jobs": 40,
+    "retained_jobs": 40,
+    "final_companies": 30,
+    "pages": [
+      {
+        "expected_jobs": 13113,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+        "status": 200
+      },
+      {
+        "expected_jobs": 1546,
+        "parsed_cards": 20,
+        "warnings": [
+          "Pagination unavailable under current robots-compliant crawling policy."
+        ],
+        "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+        "status": 200
+      }
+    ],
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "http_requests": 3,
+    "name": "multi_keyword_14d"
+  }
+]

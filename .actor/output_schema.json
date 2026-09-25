@@ -1,0 +1,14 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Company signals and coverage report",
+  "properties": {
+    "companies": {
+      "title": "Company hiring signals",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    },
+    "report": {
+      "title": "Coverage and warnings",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/RUN_REPORT"
+    }
+  }
+}

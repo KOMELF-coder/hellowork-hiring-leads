@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+storage/
+*.pyc
+investigation/*.html
+investigation/*.headers.txt
+!investigation/robots.headers.txt
+!investigation/seo-robots.headers.txt

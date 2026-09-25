@@ -1,0 +1,3945 @@
+[
+  {
+    "company": "TOHTEM",
+    "company_normalized": "tohtem",
+    "posting_company": "TOHTEM",
+    "possible_intermediary": null,
+    "hiring_score": 86.0,
+    "hiring_level": "very_high",
+    "matching_open_jobs": 4,
+    "historical_job_count": 0,
+    "unique_role_families": 4,
+    "recent_jobs_3d": 4,
+    "recent_jobs_7d": 4,
+    "recent_jobs_14d": 4,
+    "locations": [
+      {
+        "raw": "Fontenay-sous-Bois - 94",
+        "city": "Fontenay-sous-Bois",
+        "department": "94",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Paris - 75",
+        "city": "Paris",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Toulouse - 31",
+        "city": "Toulouse",
+        "department": "31",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite",
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite",
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 22,
+      "freshness": 25.0,
+      "role_diversity": 12,
+      "locations": 7,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "4 relevant active job postings were observed",
+      "4 jobs were posted in the last 7 days",
+      "4 distinct normalized role families detected",
+      "Hiring observed across 3 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83776028.html",
+        "job_id": "83776028",
+        "title": "Consultant Sécurité IA Générative & Cybersécurité H/F",
+        "company": "TOHTEM",
+        "location": {
+          "raw": "Toulouse - 31",
+          "city": "Toulouse",
+          "department": "31",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 50 000 € / an",
+          "min": 40000.0,
+          "max": 50000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83774996.html",
+        "job_id": "83774996",
+        "title": "Ingénieur Data Cybersécurité & Power Bi H/F",
+        "company": "TOHTEM",
+        "location": {
+          "raw": "Fontenay-sous-Bois - 94",
+          "city": "Fontenay-sous-Bois",
+          "department": "94",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "45 000 - 52 000 € / an",
+          "min": 45000.0,
+          "max": 52000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 2 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83776112.html",
+        "job_id": "83776112",
+        "title": "Consultant Sécurité IA Générative & Cybersécurité Idf H/F",
+        "company": "TOHTEM",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 50 000 € / an",
+          "min": 40000.0,
+          "max": 50000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83778159.html",
+        "job_id": "83778159",
+        "title": "Expert DevOps - Middleware H/F",
+        "company": "TOHTEM",
+        "location": {
+          "raw": "Toulouse - 31",
+          "city": "Toulouse",
+          "department": "31",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "42 000 - 47 000 € / an",
+          "min": 42000.0,
+          "max": 47000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83774996.html",
+      "https://www.hellowork.com/fr-fr/emplois/83776028.html",
+      "https://www.hellowork.com/fr-fr/emplois/83776112.html",
+      "https://www.hellowork.com/fr-fr/emplois/83778159.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Isagri",
+    "company_normalized": "isagri",
+    "posting_company": "Isagri",
+    "possible_intermediary": null,
+    "hiring_score": 64.0,
+    "hiring_level": "high",
+    "matching_open_jobs": 2,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 2,
+    "recent_jobs_7d": 2,
+    "recent_jobs_14d": 2,
+    "locations": [
+      {
+        "raw": "Beauvais - 60",
+        "city": "Beauvais",
+        "department": "60",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Paris 2e - 75",
+        "city": "Paris 2e",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 12,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 4,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "2 relevant active job postings were observed",
+      "2 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 2 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/82659573.html",
+        "job_id": "82659573",
+        "title": "Manager DevOps H/F",
+        "company": "Isagri",
+        "location": {
+          "raw": "Paris 2e - 75",
+          "city": "Paris 2e",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "80 000 - 90 000 € / an",
+          "min": 80000.0,
+          "max": 90000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 15 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83734946.html",
+        "job_id": "83734946",
+        "title": "Manager DevOps H/F",
+        "company": "Isagri",
+        "location": {
+          "raw": "Beauvais - 60",
+          "city": "Beauvais",
+          "department": "60",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "50 000 - 52 000 € / an",
+          "min": 50000.0,
+          "max": 52000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 22 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/82659573.html",
+      "https://www.hellowork.com/fr-fr/emplois/83734946.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Amiltone",
+    "company_normalized": "amiltone",
+    "posting_company": "Amiltone",
+    "possible_intermediary": null,
+    "hiring_score": 62.75,
+    "hiring_level": "high",
+    "matching_open_jobs": 2,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 2,
+    "recent_jobs_7d": 2,
+    "recent_jobs_14d": 2,
+    "locations": [
+      {
+        "raw": "Bouches-du-Rhône - 13",
+        "city": "Bouches-du-Rhône",
+        "department": "13",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Niort - 79",
+        "city": "Niort",
+        "department": "79",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 12,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 4,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 3.75
+    },
+    "reasons": [
+      "2 relevant active job postings were observed",
+      "2 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 2 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83755672.html",
+        "job_id": "83755672",
+        "title": "DevOps H/F",
+        "company": "Amiltone",
+        "location": {
+          "raw": "Bouches-du-Rhône - 13",
+          "city": "Bouches-du-Rhône",
+          "department": "13",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 45 000 € / an",
+          "min": 40000.0,
+          "max": 45000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 11 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83755682.html",
+        "job_id": "83755682",
+        "title": "DevOps H/F",
+        "company": "Amiltone",
+        "location": {
+          "raw": "Niort - 79",
+          "city": "Niort",
+          "department": "79",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 11 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83755672.html",
+      "https://www.hellowork.com/fr-fr/emplois/83755682.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "LH & Tech",
+    "company_normalized": "lh & tech",
+    "posting_company": "LH & Tech",
+    "possible_intermediary": null,
+    "hiring_score": 61.75,
+    "hiring_level": "high",
+    "matching_open_jobs": 2,
+    "historical_job_count": 0,
+    "unique_role_families": 2,
+    "recent_jobs_3d": 2,
+    "recent_jobs_7d": 2,
+    "recent_jobs_14d": 2,
+    "locations": [
+      {
+        "raw": "Paris - 75",
+        "city": "Paris",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 12,
+      "freshness": 25.0,
+      "role_diversity": 6,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 3.75
+    },
+    "reasons": [
+      "2 relevant active job postings were observed",
+      "2 jobs were posted in the last 7 days",
+      "2 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83775416.html",
+        "job_id": "83775416",
+        "title": "Ingénieur C++ Embarqué Cybersécurité H/F",
+        "company": "LH & Tech",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "45 000 - 55 000 € / an",
+          "min": 45000.0,
+          "max": 55000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 2 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83775996.html",
+        "job_id": "83775996",
+        "title": "Chef de Projet Cybersécurité Industrielle - OT H/F",
+        "company": "LH & Tech",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "54 000 - 68 000 € / an",
+          "min": 54000.0,
+          "max": 68000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83775416.html",
+      "https://www.hellowork.com/fr-fr/emplois/83775996.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Collective Works",
+    "company_normalized": "collective works",
+    "posting_company": "Collective Works",
+    "possible_intermediary": null,
+    "hiring_score": 61.0,
+    "hiring_level": "high",
+    "matching_open_jobs": 3,
+    "historical_job_count": 0,
+    "unique_role_families": 2,
+    "recent_jobs_3d": 3,
+    "recent_jobs_7d": 3,
+    "recent_jobs_14d": 3,
+    "locations": [
+      {
+        "raw": "Montpellier - 34",
+        "city": "Montpellier",
+        "department": "34",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Nantes - 44",
+        "city": "Nantes",
+        "department": "44",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Paris - 75",
+        "city": "Paris",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "Freelance"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 18,
+      "freshness": 25.0,
+      "role_diversity": 6,
+      "locations": 7,
+      "permanent_contracts": 0.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "3 relevant active job postings were observed",
+      "3 jobs were posted in the last 7 days",
+      "2 distinct normalized role families detected",
+      "Hiring observed across 3 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83777923.html",
+        "job_id": "83777923",
+        "title": "DevOps - Expérimenté - Sénior H/F",
+        "company": "Collective Works",
+        "location": {
+          "raw": "Montpellier - 34",
+          "city": "Montpellier",
+          "department": "34",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "Freelance",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83767410.html",
+        "job_id": "83767410",
+        "title": "DevOps Senior - Cloud Azure H/F",
+        "company": "Collective Works",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "Freelance",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 3 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83735889.html",
+        "job_id": "83735889",
+        "title": "Expert DevOps H/F",
+        "company": "Collective Works",
+        "location": {
+          "raw": "Nantes - 44",
+          "city": "Nantes",
+          "department": "44",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "Freelance",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 21 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83735889.html",
+      "https://www.hellowork.com/fr-fr/emplois/83767410.html",
+      "https://www.hellowork.com/fr-fr/emplois/83777923.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Naval Group",
+    "company_normalized": "naval group",
+    "posting_company": "Naval Group",
+    "possible_intermediary": null,
+    "hiring_score": 60.0,
+    "hiring_level": "high",
+    "matching_open_jobs": 2,
+    "historical_job_count": 0,
+    "unique_role_families": 2,
+    "recent_jobs_3d": 2,
+    "recent_jobs_7d": 2,
+    "recent_jobs_14d": 2,
+    "locations": [
+      {
+        "raw": "Brest - 29",
+        "city": "Brest",
+        "department": "29",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Saint-Tropez - 83",
+        "city": "Saint-Tropez",
+        "department": "83",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 12,
+      "freshness": 25.0,
+      "role_diversity": 6,
+      "locations": 4,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 3.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "2 relevant active job postings were observed",
+      "2 jobs were posted in the last 7 days",
+      "2 distinct normalized role families detected",
+      "Hiring observed across 2 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Exact HelloWork SEO result only; no textual keyword evidence.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83775963.html",
+        "job_id": "83775963",
+        "title": "CDI - Architecte Cybersécurité H/F",
+        "company": "Naval Group",
+        "location": {
+          "raw": "Brest - 29",
+          "city": "Brest",
+          "department": "29",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 2 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83779247.html",
+        "job_id": "83779247",
+        "title": "CDI - Responsable de la Sécurité des Systèmes d'Information RSSI H/F",
+        "company": "Naval Group",
+        "location": {
+          "raw": "Saint-Tropez - 83",
+          "city": "Saint-Tropez",
+          "department": "83",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [
+          "Exact HelloWork SEO result only; no textual keyword evidence."
+        ],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83775963.html",
+      "https://www.hellowork.com/fr-fr/emplois/83779247.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Sopra Steria",
+    "company_normalized": "sopra steria",
+    "posting_company": "Sopra Steria",
+    "possible_intermediary": null,
+    "hiring_score": 60.0,
+    "hiring_level": "high",
+    "matching_open_jobs": 2,
+    "historical_job_count": 0,
+    "unique_role_families": 2,
+    "recent_jobs_3d": 2,
+    "recent_jobs_7d": 2,
+    "recent_jobs_14d": 2,
+    "locations": [
+      {
+        "raw": "Courbevoie - 92",
+        "city": "Courbevoie",
+        "department": "92",
+        "region": null,
+        "country": "France"
+      },
+      {
+        "raw": "Limonest - 69",
+        "city": "Limonest",
+        "department": "69",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 12,
+      "freshness": 25.0,
+      "role_diversity": 6,
+      "locations": 4,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 3.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "2 relevant active job postings were observed",
+      "2 jobs were posted in the last 7 days",
+      "2 distinct normalized role families detected",
+      "Hiring observed across 2 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Exact HelloWork SEO result only; no textual keyword evidence.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83779934.html",
+        "job_id": "83779934",
+        "title": "Consultant Conformité Accompagnement Homologation - Cybersécurité - Île-De-France H/F",
+        "company": "Sopra Steria",
+        "location": {
+          "raw": "Courbevoie - 92",
+          "city": "Courbevoie",
+          "department": "92",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      },
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83779923.html",
+        "job_id": "83779923",
+        "title": "Chef de Projet Infrastructure - Lyon H/F",
+        "company": "Sopra Steria",
+        "location": {
+          "raw": "Limonest - 69",
+          "city": "Limonest",
+          "department": "69",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [
+          "Exact HelloWork SEO result only; no textual keyword evidence."
+        ],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83779923.html",
+      "https://www.hellowork.com/fr-fr/emplois/83779934.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Extia",
+    "company_normalized": "extia",
+    "posting_company": "Extia",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Paris - 75",
+        "city": "Paris",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83767571.html",
+        "job_id": "83767571",
+        "title": "Consultant DevOps Confirmé H/F",
+        "company": "Extia",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "3 300 - 4 000 € / mois",
+          "min": 3300.0,
+          "max": 4000.0,
+          "currency": "EUR",
+          "period": "month"
+        },
+        "posting_age_raw": "il y a 3 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83767571.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Mercato de l'emploi",
+    "company_normalized": "mercato de l'emploi",
+    "posting_company": "Mercato de l'emploi",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Val-de-Marne - 94",
+        "city": "Val-de-Marne",
+        "department": "94",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83778389.html",
+        "job_id": "83778389",
+        "title": "Account Executive Cybersécurité H/F",
+        "company": "Mercato de l'emploi",
+        "location": {
+          "raw": "Val-de-Marne - 94",
+          "city": "Val-de-Marne",
+          "department": "94",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 60 000 € / an",
+          "min": 40000.0,
+          "max": 60000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83778389.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Team.is",
+    "company_normalized": "team.is",
+    "posting_company": "Team.is",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Boulogne-Billancourt - 92",
+        "city": "Boulogne-Billancourt",
+        "department": "92",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83755776.html",
+        "job_id": "83755776",
+        "title": "Team Lead DevOps H/F",
+        "company": "Team.is",
+        "location": {
+          "raw": "Boulogne-Billancourt - 92",
+          "city": "Boulogne-Billancourt",
+          "department": "92",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "60 000 - 65 000 € / an",
+          "min": 60000.0,
+          "max": 65000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 11 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83755776.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Klanik",
+    "company_normalized": "klanik",
+    "posting_company": "Klanik",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Lyon - 69",
+        "city": "Lyon",
+        "department": "69",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83711590.html",
+        "job_id": "83711590",
+        "title": "DevOps H/F",
+        "company": "Klanik",
+        "location": {
+          "raw": "Lyon - 69",
+          "city": "Lyon",
+          "department": "69",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "45 000 - 55 000 € / an",
+          "min": 45000.0,
+          "max": 55000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83711590.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "Proxiel",
+    "company_normalized": "proxiel",
+    "posting_company": "Proxiel",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Aix-en-Provence - 13",
+        "city": "Aix-en-Provence",
+        "department": "13",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83720769.html",
+        "job_id": "83720769",
+        "title": "DevOps H/F",
+        "company": "Proxiel",
+        "location": {
+          "raw": "Aix-en-Provence - 13",
+          "city": "Aix-en-Provence",
+          "department": "13",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "35 000 - 42 000 € / an",
+          "min": 35000.0,
+          "max": 42000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83720769.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "Randstad Digital France",
+    "company_normalized": "randstad digital france",
+    "posting_company": "Randstad Digital France",
+    "possible_intermediary": null,
+    "hiring_score": 54.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Lyon 3e - 69",
+        "city": "Lyon 3e",
+        "department": "69",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 5.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83721182.html",
+        "job_id": "83721182",
+        "title": "Lead DevOps H/F",
+        "company": "Randstad Digital France",
+        "location": {
+          "raw": "Lyon 3e - 69",
+          "city": "Lyon 3e",
+          "department": "69",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "44 000 € / an",
+          "min": 44000.0,
+          "max": 44000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83721182.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "Capgemini",
+    "company_normalized": "capgemini",
+    "posting_company": "Capgemini",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Issy-les-Moulineaux - 92",
+        "city": "Issy-les-Moulineaux",
+        "department": "92",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83774152.html",
+        "job_id": "83774152",
+        "title": "Architecte Cybersécurité H/F",
+        "company": "Capgemini",
+        "location": {
+          "raw": "Issy-les-Moulineaux - 92",
+          "city": "Issy-les-Moulineaux",
+          "department": "92",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 2 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83774152.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Groupe OGF",
+    "company_normalized": "groupe ogf",
+    "posting_company": "Groupe OGF",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Courbevoie - 92",
+        "city": "Courbevoie",
+        "department": "92",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83778113.html",
+        "job_id": "83778113",
+        "title": "Responsabie Opérationnel de la Cybersécurité H/F",
+        "company": "Groupe OGF",
+        "location": {
+          "raw": "Courbevoie - 92",
+          "city": "Courbevoie",
+          "department": "92",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "70 000 - 75 000 € / an",
+          "min": 70000.0,
+          "max": 75000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83778113.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "LR Technologies Groupe",
+    "company_normalized": "lr technologies groupe",
+    "posting_company": "LR Technologies Groupe",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Brest - 29",
+        "city": "Brest",
+        "department": "29",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/80581265.html",
+        "job_id": "80581265",
+        "title": "DevOps Expert Aws H/F",
+        "company": "LR Technologies Groupe",
+        "location": {
+          "raw": "Brest - 29",
+          "city": "Brest",
+          "department": "29",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 15 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/80581265.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "PÔLE FORMATION BRETAGNE UIMM",
+    "company_normalized": "pole formation bretagne uimm",
+    "posting_company": "PÔLE FORMATION BRETAGNE UIMM",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Bruz - 35",
+        "city": "Bruz",
+        "department": "35",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "occasional"
+    ],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83763446.html",
+        "job_id": "83763446",
+        "title": "Formateur·trice Informatique & Cybersécurité - Esna H/F",
+        "company": "PÔLE FORMATION BRETAGNE UIMM",
+        "location": {
+          "raw": "Bruz - 35",
+          "city": "Bruz",
+          "department": "35",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 4 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "occasional"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83763446.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Randstad Digital",
+    "company_normalized": "randstad digital",
+    "posting_company": "Randstad Digital",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Toulouse - 31",
+        "city": "Toulouse",
+        "department": "31",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": true,
+    "remote_modes": [
+      "partial"
+    ],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83775972.html",
+        "job_id": "83775972",
+        "title": "Intégration Système et Logiciel - DevOps H/F",
+        "company": "Randstad Digital",
+        "location": {
+          "raw": "Toulouse - 31",
+          "city": "Toulouse",
+          "department": "31",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": true,
+        "remote_modes": [
+          "partial"
+        ],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83775972.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "CCL CONSULTING",
+    "company_normalized": "ccl consulting",
+    "posting_company": "CCL CONSULTING",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Toulouse - 31",
+        "city": "Toulouse",
+        "department": "31",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/80531417.html",
+        "job_id": "80531417",
+        "title": "DevOps H/F",
+        "company": "CCL CONSULTING",
+        "location": {
+          "raw": "Toulouse - 31",
+          "city": "Toulouse",
+          "department": "31",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 48 000 € / an",
+          "min": 40000.0,
+          "max": 48000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/80531417.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "It Link France",
+    "company_normalized": "it link france",
+    "posting_company": "It Link France",
+    "possible_intermediary": null,
+    "hiring_score": 51.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Nantes - 44",
+        "city": "Nantes",
+        "department": "44",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83722842.html",
+        "job_id": "83722842",
+        "title": "DevOps H/F",
+        "company": "It Link France",
+        "location": {
+          "raw": "Nantes - 44",
+          "city": "Nantes",
+          "department": "44",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "55 000 - 65 000 € / an",
+          "min": 55000.0,
+          "max": 65000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83722842.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "ARESIA",
+    "company_normalized": "aresia",
+    "posting_company": "ARESIA",
+    "possible_intermediary": null,
+    "hiring_score": 49.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Villeneuve-la-Garenne - 92",
+        "city": "Villeneuve-la-Garenne",
+        "department": "92",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83761803.html",
+        "job_id": "83761803",
+        "title": "Administrateur Système et Réseau - Cybersécurité H/F",
+        "company": "ARESIA",
+        "location": {
+          "raw": "Villeneuve-la-Garenne - 92",
+          "city": "Villeneuve-la-Garenne",
+          "department": "92",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 5 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83761803.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "L'Industrie recrute",
+    "company_normalized": "l'industrie recrute",
+    "posting_company": "L'Industrie recrute",
+    "possible_intermediary": null,
+    "hiring_score": 49.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Saint-Dié-des-Vosges - 88",
+        "city": "Saint-Dié-des-Vosges",
+        "department": "88",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83774068.html",
+        "job_id": "83774068",
+        "title": "Technicien Informatique - Cybersécurité H/F",
+        "company": "L'Industrie recrute",
+        "location": {
+          "raw": "Saint-Dié-des-Vosges - 88",
+          "city": "Saint-Dié-des-Vosges",
+          "department": "88",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 2 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83774068.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Outscale",
+    "company_normalized": "outscale",
+    "posting_company": "Outscale",
+    "possible_intermediary": null,
+    "hiring_score": 49.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Brest - 29",
+        "city": "Brest",
+        "department": "29",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83765385.html",
+        "job_id": "83765385",
+        "title": "DevOps Ingénieur. H/F",
+        "company": "Outscale",
+        "location": {
+          "raw": "Brest - 29",
+          "city": "Brest",
+          "department": "29",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 4 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83765385.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Smile Group",
+    "company_normalized": "smile group",
+    "posting_company": "Smile Group",
+    "possible_intermediary": null,
+    "hiring_score": 49.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Lille - 59",
+        "city": "Lille",
+        "department": "59",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/82647398.html",
+        "job_id": "82647398",
+        "title": "DevOps & Cloud - Lille H/F",
+        "company": "Smile Group",
+        "location": {
+          "raw": "Lille - 59",
+          "city": "Lille",
+          "department": "59",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 15 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/82647398.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Le Groupe Septeo",
+    "company_normalized": "le groupe septeo",
+    "posting_company": "Le Groupe Septeo",
+    "possible_intermediary": null,
+    "hiring_score": 49.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Montpellier - 34",
+        "city": "Montpellier",
+        "department": "34",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "devops"
+    ],
+    "title_keyword_matches": [
+      "devops"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83718793.html",
+        "job_id": "83718793",
+        "title": "DevOps H/F",
+        "company": "Le Groupe Septeo",
+        "location": {
+          "raw": "Montpellier - 34",
+          "city": "Montpellier",
+          "department": "34",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 1 jour",
+        "posting_age_days": 1,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "devops"
+        ],
+        "title_keyword_matches": [
+          "devops"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+            "match_type": "exact",
+            "keywords": [
+              "devops"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83718793.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 1
+  },
+  {
+    "company": "Atos",
+    "company_normalized": "atos",
+    "posting_company": "Atos",
+    "possible_intermediary": null,
+    "hiring_score": 47.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Nantes - 44",
+        "city": "Nantes",
+        "department": "44",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 1.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Exact HelloWork SEO result only; no textual keyword evidence.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83779762.html",
+        "job_id": "83779762",
+        "title": "Intégrateur DevOps Confirmé H/F",
+        "company": "Atos",
+        "location": {
+          "raw": "Nantes - 44",
+          "city": "Nantes",
+          "department": "44",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": "40 000 - 50 000 € / an",
+          "min": 40000.0,
+          "max": 50000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [
+          "Exact HelloWork SEO result only; no textual keyword evidence."
+        ],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83779762.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Akkodis",
+    "company_normalized": "akkodis",
+    "posting_company": "Akkodis",
+    "possible_intermediary": null,
+    "hiring_score": 45.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Montpellier - 34",
+        "city": "Montpellier",
+        "department": "34",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 1.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Exact HelloWork SEO result only; no textual keyword evidence.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83779532.html",
+        "job_id": "83779532",
+        "title": "Test Engineer H/F",
+        "company": "Akkodis",
+        "location": {
+          "raw": "Montpellier - 34",
+          "city": "Montpellier",
+          "department": "34",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [
+          "Exact HelloWork SEO result only; no textual keyword evidence."
+        ],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83779532.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Vitalrest",
+    "company_normalized": "vitalrest",
+    "posting_company": "Vitalrest",
+    "possible_intermediary": null,
+    "hiring_score": 45.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Saint-Germain-en-Laye - 78",
+        "city": "Saint-Germain-en-Laye",
+        "department": "78",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "CDI"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 10.0,
+      "keyword_depth": 1.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Exact HelloWork SEO result only; no textual keyword evidence.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83780091.html",
+        "job_id": "83780091",
+        "title": "Responsable Système d'Information H/F",
+        "company": "Vitalrest",
+        "location": {
+          "raw": "Saint-Germain-en-Laye - 78",
+          "city": "Saint-Germain-en-Laye",
+          "department": "78",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "CDI",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "moins d'une heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [
+          "Exact HelloWork SEO result only; no textual keyword evidence."
+        ],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83780091.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "Actual Talent",
+    "company_normalized": "actual talent",
+    "posting_company": "Actual Talent",
+    "possible_intermediary": null,
+    "hiring_score": 41.5,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Annecy - 74",
+        "city": "Annecy",
+        "department": "74",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "Intérim"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": true,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 0.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 2.5
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83765934.html",
+        "job_id": "83765934",
+        "title": "Technicien en Cybersecurite H/F",
+        "company": "Actual Talent",
+        "location": {
+          "raw": "Annecy - 74",
+          "city": "Annecy",
+          "department": "74",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "Intérim",
+        "salary": {
+          "raw": "30 000 - 35 000 € / an",
+          "min": 30000.0,
+          "max": 35000.0,
+          "currency": "EUR",
+          "period": "year"
+        },
+        "posting_age_raw": "il y a 4 heures",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83765934.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  },
+  {
+    "company": "CGI",
+    "company_normalized": "cgi",
+    "posting_company": "CGI",
+    "possible_intermediary": null,
+    "hiring_score": 39.0,
+    "hiring_level": "medium",
+    "matching_open_jobs": 1,
+    "historical_job_count": 0,
+    "unique_role_families": 1,
+    "recent_jobs_3d": 1,
+    "recent_jobs_7d": 1,
+    "recent_jobs_14d": 1,
+    "locations": [
+      {
+        "raw": "Paris - 75",
+        "city": "Paris",
+        "department": "75",
+        "region": null,
+        "country": "France"
+      }
+    ],
+    "contract_types": [
+      "Stage"
+    ],
+    "has_remote_option": null,
+    "remote_modes": [],
+    "salary_disclosed": false,
+    "matched_search_keywords": [
+      "cybersecurite"
+    ],
+    "title_keyword_matches": [
+      "cybersecurite"
+    ],
+    "description_keyword_matches": [],
+    "score_breakdown": {
+      "volume": 6,
+      "freshness": 25.0,
+      "role_diversity": 3,
+      "locations": 0,
+      "permanent_contracts": 0.0,
+      "keyword_depth": 5.0,
+      "offer_transparency": 0.0
+    },
+    "reasons": [
+      "1 relevant active job postings were observed",
+      "1 jobs were posted in the last 7 days",
+      "1 distinct normalized role families detected",
+      "Hiring observed across 1 locations"
+    ],
+    "warnings": [
+      "Activity inferred from public listing presence; detail validity not checked.",
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "roles": [
+      {
+        "url": "https://www.hellowork.com/fr-fr/emplois/83778022.html",
+        "job_id": "83778022",
+        "title": "Stage Conseil Consultant en Cybersécurité H/F",
+        "company": "CGI",
+        "location": {
+          "raw": "Paris - 75",
+          "city": "Paris",
+          "department": "75",
+          "region": null,
+          "country": "France"
+        },
+        "contract_type": "Stage",
+        "salary": {
+          "raw": null,
+          "min": null,
+          "max": null,
+          "currency": null,
+          "period": "unknown"
+        },
+        "posting_age_raw": "il y a 1 heure",
+        "posting_age_days": 0,
+        "posting_age_lower_bound_days": null,
+        "has_remote_option": null,
+        "remote_modes": [],
+        "is_active": true,
+        "anonymous": false,
+        "source_match_type": "exact",
+        "matched_search_keywords": [
+          "cybersecurite"
+        ],
+        "title_keyword_matches": [
+          "cybersecurite"
+        ],
+        "description_keyword_matches": [],
+        "source_observations": [
+          {
+            "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+            "match_type": "exact",
+            "keywords": [
+              "cybersecurite"
+            ]
+          }
+        ],
+        "warnings": [],
+        "possible_intermediary": null,
+        "activity_evidence": "observed_on_listing"
+      }
+    ],
+    "job_urls": [
+      "https://www.hellowork.com/fr-fr/emplois/83778022.html"
+    ],
+    "source": "HelloWork",
+    "collected_at": "2026-09-25T14:25:30.542660+00:00",
+    "freshest_posting_age_days": 0
+  }
+]

@@ -1,0 +1,2 @@
+# Preserve raw HTTP evidence, including source whitespace and header terminator.
+investigation/*robots* whitespace=-blank-at-eol,-blank-at-eof

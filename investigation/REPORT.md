@@ -1,5 +1,7 @@
 # Pre-development investigation
 
+Historical report: superseded by the validated static SEO implementation documented in [SEO_REPORT.md](SEO_REPORT.md). The prohibited dynamic search routes remain unused.
+
 Date: 2026-09-25. Target: https://www.hellowork.com/.
 
 ## Decision

@@ -1,0 +1,22 @@
+{
+  "raw_jobs": 20,
+  "unique_jobs": 3,
+  "retained_jobs": 3,
+  "final_companies": 3,
+  "pages": [
+    {
+      "expected_jobs": 13113,
+      "parsed_cards": 20,
+      "warnings": [
+        "Pagination unavailable under current robots-compliant crawling policy."
+      ],
+      "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+      "status": 200
+    }
+  ],
+  "warnings": [
+    "Pagination unavailable under current robots-compliant crawling policy.",
+    "max_jobs reached; returned signal is a bounded sample."
+  ],
+  "http_requests": 5
+}

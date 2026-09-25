@@ -1,0 +1,15 @@
+{
+  "start_urls": [
+    "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+    "https://www.hellowork.com/fr-fr/emploi/metier_devops.html"
+  ],
+  "keywords": [
+    "cybersecurite",
+    "cloud",
+    "devops"
+  ],
+  "posted_within_days": 14,
+  "max_jobs": 40,
+  "max_companies": 20,
+  "collect_job_details": true
+}

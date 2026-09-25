@@ -1,0 +1,465 @@
+[
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/metier_analyste-programmeur-as-400.html",
+    "http_status": 200,
+    "expected_jobs": 2,
+    "parsed_cards": 2,
+    "warnings": [],
+    "exact": 2,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 1,
+    "remote_disclosed": 0,
+    "known_age": 2,
+    "contracts": [
+      "CDI"
+    ],
+    "company_names": [
+      "Ocsi Academy",
+      "SID"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-drupal.html",
+    "http_status": 200,
+    "expected_jobs": 9311,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 19,
+    "related": 1,
+    "anonymous": 0,
+    "salary_disclosed": 11,
+    "remote_disclosed": 10,
+    "known_age": 20,
+    "contracts": [
+      "CDD",
+      "CDI",
+      "Freelance",
+      "Stage"
+    ],
+    "company_names": [
+      "AK Recrutement",
+      "Actimage",
+      "AddixGroup",
+      "Ariane Group",
+      "Astek",
+      "Bassetti",
+      "ENOVA France",
+      "Groupe Alliance",
+      "IT Link",
+      "LH & Tech",
+      "SYD Digital Care",
+      "Talents Handicap"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur-region_hauts-de-france.html",
+    "http_status": 200,
+    "expected_jobs": 364,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 2,
+    "salary_disclosed": 9,
+    "remote_disclosed": 9,
+    "known_age": 20,
+    "contracts": [
+      "CDI",
+      "Freelance"
+    ],
+    "company_names": [
+      "Anonymous company",
+      "Approach People Recruitment",
+      "Audensiel Technologies",
+      "Blg Mobility",
+      "ERYON",
+      "Faceel-It",
+      "Groupama Nord Est",
+      "LR Technologies Groupe",
+      "LittleBig Connection (part of Mantu)",
+      "Michael Page",
+      "Naxo",
+      "Nexton",
+      "OKARA",
+      "OVHCloud",
+      "Reboot Conseil",
+      "Thalia Patrimoine"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/metier_developpeur.html",
+    "http_status": 200,
+    "expected_jobs": 5167,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 14,
+    "remote_disclosed": 11,
+    "known_age": 20,
+    "contracts": [
+      "CDD",
+      "CDI",
+      "Freelance",
+      "Stage"
+    ],
+    "company_names": [
+      "ANFSI",
+      "Amiltone",
+      "Astek",
+      "ENOVA France",
+      "Experteam",
+      "Fed IT",
+      "Groupe SII",
+      "HOUSE OF ABY",
+      "Inetum",
+      "LR Technologies Groupe",
+      "Michael Page",
+      "OCSI Group",
+      "Proxiad",
+      "Sintel",
+      "Sopra Steria",
+      "Team.is"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/metier_devops.html",
+    "http_status": 200,
+    "expected_jobs": 1546,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 11,
+    "remote_disclosed": 11,
+    "known_age": 20,
+    "contracts": [
+      "CDI",
+      "Freelance"
+    ],
+    "company_names": [
+      "Amiltone",
+      "Atos",
+      "CCL CONSULTING",
+      "Collective Works",
+      "Extia",
+      "Isagri",
+      "It Link France",
+      "Klanik",
+      "LR Technologies Groupe",
+      "Le Groupe Septeo",
+      "Outscale",
+      "Proxiel",
+      "Randstad Digital",
+      "Smile Group",
+      "TOHTEM",
+      "Team.is"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lille-59000.html",
+    "http_status": 200,
+    "expected_jobs": 614,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 8,
+    "remote_disclosed": 11,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Intérim",
+      "Stage"
+    ],
+    "company_names": [
+      "AURLOM",
+      "CGI",
+      "CYBERTRIBE",
+      "Capgemini",
+      "Extia",
+      "GRDF",
+      "IKIWAY",
+      "LR Technologies Groupe",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "Metsys",
+      "NEXA Digital School",
+      "Red Hot Talents",
+      "Sapiens Consulting",
+      "Talents Digital"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_lyon-69000.html",
+    "http_status": 200,
+    "expected_jobs": 555,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 11,
+    "remote_disclosed": 9,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDD",
+      "CDI",
+      "Intérim",
+      "Stage"
+    ],
+    "company_names": [
+      "Alfene",
+      "Almond",
+      "Approach People Recruitment",
+      "Atos",
+      "AÉSIO mutuelle",
+      "Effektiv",
+      "Framatome",
+      "Groupe SARASTRO",
+      "Hardis Group",
+      "LR Technologies Groupe",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "MCA Groupe",
+      "NEXA Digital School",
+      "Noviac",
+      "Skaelia",
+      "Ville de Lyon",
+      "Viveris.",
+      "asap.work",
+      "iQanto"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nantes-44000.html",
+    "http_status": 200,
+    "expected_jobs": 409,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 13,
+    "remote_disclosed": 16,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Intérim"
+    ],
+    "company_names": [
+      "CGI",
+      "Club Comptable",
+      "DIGITEMIS",
+      "Davidson consulting",
+      "Externatic",
+      "Inside",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "MYTTRA",
+      "MyDigitalSchool Angers",
+      "NEXA Digital School",
+      "NJ4TECH",
+      "Onepoint",
+      "SYD Digital Care",
+      "Sup de Vinci",
+      "Wemoov",
+      "fortil group"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_nice-06000.html",
+    "http_status": 200,
+    "expected_jobs": 841,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 16,
+    "remote_disclosed": 6,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Freelance",
+      "Intérim"
+    ],
+    "company_names": [
+      "AURLOM",
+      "Astek",
+      "Aéroports de la Côte d'Azur",
+      "Eau d'Azur",
+      "Innova Solutions",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "MATAWAN SERVICES",
+      "Step Up",
+      "UNIVI - Hôpital Les Sources"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_paris-75000.html",
+    "http_status": 200,
+    "expected_jobs": 5220,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 12,
+    "remote_disclosed": 8,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Freelance",
+      "Intérim"
+    ],
+    "company_names": [
+      "AGATE IT",
+      "AURLOM",
+      "Accenture France",
+      "Achil",
+      "Bureau Veritas",
+      "Capgemini",
+      "ENOSI RH",
+      "HC Resources",
+      "Hexanet",
+      "LH & Tech",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "MCA Groupe",
+      "NEXA Digital School",
+      "REEL IT",
+      "Red Hot Talents",
+      "Skaelia",
+      "Talents Digital"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_rennes-35000.html",
+    "http_status": 200,
+    "expected_jobs": 405,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 13,
+    "remote_disclosed": 13,
+    "known_age": 18,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Freelance",
+      "Intérim",
+      "Stage"
+    ],
+    "company_names": [
+      "Apave",
+      "Astek",
+      "Blue",
+      "CGI",
+      "Celad",
+      "Groupe SII",
+      "Hellowork group",
+      "Inetum",
+      "Keolis Rennes",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "NEXA Digital School",
+      "Serma Safety & Security",
+      "Squad",
+      "Sup de Vinci",
+      "Talents Handicap"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite-ville_toulouse-31000.html",
+    "http_status": 200,
+    "expected_jobs": 682,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 1,
+    "salary_disclosed": 7,
+    "remote_disclosed": 12,
+    "known_age": 20,
+    "contracts": [
+      "CDI",
+      "Freelance",
+      "Intérim",
+      "Stage"
+    ],
+    "company_names": [
+      "AIS",
+      "ALTEN",
+      "Anonymous company",
+      "CGI",
+      "Capgemini",
+      "Consort Group",
+      "Devoteam France",
+      "Equans France",
+      "Groupe SII",
+      "HELPLINE",
+      "Inside",
+      "Klanik",
+      "LTD - Métiers de la VRD régions, Télécom, Eau & Environnement",
+      "TOHTEM",
+      "Viveris."
+    ]
+  },
+  {
+    "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_cybersecurite.html",
+    "http_status": 200,
+    "expected_jobs": 12957,
+    "parsed_cards": 20,
+    "warnings": [
+      "Pagination unavailable under current robots-compliant crawling policy."
+    ],
+    "exact": 20,
+    "related": 0,
+    "anonymous": 0,
+    "salary_disclosed": 1,
+    "remote_disclosed": 2,
+    "known_age": 20,
+    "contracts": [
+      "Alternance",
+      "CDI",
+      "Intérim"
+    ],
+    "company_names": [
+      "AGPM",
+      "ARESIA",
+      "AURLOM",
+      "Actual Talent",
+      "Actual group",
+      "PÔLE FORMATION BRETAGNE UIMM"
+    ]
+  }
+]

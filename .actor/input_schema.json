@@ -1,0 +1,121 @@
+{
+  "title": "France Hiring Signals — HelloWork",
+  "type": "object",
+  "schemaVersion": 1,
+  "description": "Provide keywords or explicit public SEO start_urls. Runtime validates both modes.",
+  "properties": {
+    "keywords": {
+      "title": "Keywords",
+      "type": "array",
+      "editor": "stringList",
+      "items": {
+        "type": "string",
+        "maxLength": 200,
+        "minLength": 1
+      },
+      "maxItems": 10,
+      "description": "Required in discovery mode (1–10). Trimmed and case-insensitive deduplicated. Optional textual match terms in URL mode.",
+      "prefill": [
+        "cybersecurite",
+        "devops"
+      ]
+    },
+    "start_urls": {
+      "title": "Public SEO URLs",
+      "type": "array",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "description": "Optional. Takes priority. HTTPS HelloWork /fr-fr/emploi/ SEO URLs, no query or fragment."
+    },
+    "location": {
+      "title": "Location",
+      "type": "string",
+      "editor": "textfield",
+      "maxLength": 200,
+      "description": "Supported catalog location only; ignored in explicit URL mode."
+    },
+    "contract_types": {
+      "title": "Contracts",
+      "type": "array",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "description": "Optional normalized contracts: CDI, CDD, Alternance, Stage, Intérim, Freelance, Fonctionnaire, Other, Unknown."
+    },
+    "posted_within_days": {
+      "title": "Posted Within Days",
+      "type": "integer",
+      "editor": "number",
+      "description": "See README for filtering and bounds.",
+      "default": 14,
+      "minimum": 1,
+      "maximum": 90
+    },
+    "max_jobs": {
+      "title": "Max Jobs",
+      "type": "integer",
+      "editor": "number",
+      "description": "See README for filtering and bounds.",
+      "default": 250,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "max_companies": {
+      "title": "Max Companies",
+      "type": "integer",
+      "editor": "number",
+      "description": "See README for filtering and bounds.",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 500
+    },
+    "min_jobs_per_company": {
+      "title": "Min Jobs Per Company",
+      "type": "integer",
+      "editor": "number",
+      "description": "See README for filtering and bounds.",
+      "default": 1,
+      "minimum": 1
+    },
+    "include_related_results": {
+      "title": "Include Related Results",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "See README for evidence and exclusion rules.",
+      "default": false
+    },
+    "include_expired_jobs": {
+      "title": "Include Expired Jobs",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "See README for evidence and exclusion rules.",
+      "default": false
+    },
+    "include_anonymous_companies": {
+      "title": "Include Anonymous Companies",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "See README for evidence and exclusion rules.",
+      "default": false
+    },
+    "exclude_recruitment_agencies": {
+      "title": "Exclude Recruitment Agencies",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "See README for evidence and exclusion rules.",
+      "default": false
+    },
+    "collect_job_details": {
+      "title": "Collect Job Details",
+      "type": "boolean",
+      "editor": "checkbox",
+      "description": "See README for evidence and exclusion rules.",
+      "default": true
+    }
+  }
+}

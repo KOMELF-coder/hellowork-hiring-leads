@@ -1,0 +1,7 @@
+.git
+.venv
+storage
+investigation
+tests
+fixtures
+__pycache__

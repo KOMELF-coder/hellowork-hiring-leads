@@ -1,0 +1,16 @@
+{
+  "actorSpecification": 1,
+  "name": "france-hiring-signals-hellowork",
+  "title": "France Hiring Signals — HelloWork",
+  "description": "Turn French job postings into company-level hiring signals.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "defaultMemoryMbytes": 256
+}

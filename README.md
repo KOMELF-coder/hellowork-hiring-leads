@@ -88,9 +88,15 @@ Illustrative excerpt, not a real company. Full live rows are saved in `examples/
 }
 ```
 
-## 7. Pricing placeholder
+## 7. Pricing
 
-Future target: **$0.005 per company result = $5 / 1,000 company signals**. No custom paid events or monetization are enabled. Each returned dataset item could support one billable company event later. Platform compute costs are separate.
+**$0.005 per company result = $5 / 1,000 company signals.**
+
+Each returned dataset item is billed as one company signal.
+
+A minimal Actor start event is also configured at **$0.00005**.
+
+Platform usage is included in the Store price.
 
 ## 8. Input reference
 
@@ -165,11 +171,15 @@ Public SEO availability and first-page ordering determine coverage. Displayed to
 
 No fuzzy employer merging, synonym translation or geocoding. Company aliases, role synonyms and location variants can remain separate. Intermediaries can be missed when explicit evidence is absent. With details disabled, activity relies on listing presence and is disclosed as such.
 
-Natural expired offers may not be available during live investigation; tests use elapsed validThrough on a real fixture plus synthetic expiry notices and 404 responses. Local SDK execution does not prove deployment on Apify cloud or a Docker build in the target environment.
+Natural expired offers may not be available during live investigation; tests use elapsed validThrough on a real fixture plus synthetic expiry notices and 404 responses. The Actor has also been built and run successfully on Apify Cloud. Public SEO coverage and source markup can still change over time.
 
 ## 13. Technical details
 
-Python 3.12, HTTPX, BeautifulSoup's standard HTML parser, Protego robots handling, Apify SDK. Verified TLS uses the system trust store. Sequential requests, timeout 25 seconds, jitter 1–2 seconds, maximum 3 attempts, exponential backoff and bounded Retry-After. Persistent 403/429/5xx/timeouts fail explicitly. No browser is needed: job cards and public JobPosting JSON-LD are server-rendered.
+Python 3.12, HTTPX, BeautifulSoup's standard HTML parser, Protego robots handling, and the Apify SDK. Verified TLS uses the system trust store.
+
+Detail enrichment uses bounded concurrency with up to 4 in-flight requests and global pacing of roughly 2–3 request starts per second. Requests use a 25-second timeout, up to 3 attempts, exponential backoff, and bounded Retry-After handling. Persistent 403/429/5xx responses and timeouts fail explicitly.
+
+No browser is needed: job cards and public JobPosting JSON-LD are server-rendered.
 
 Selectors: `[data-cy=serpCard]`, `[data-cy=offerTitle] h3 > p`, `[data-cy=localisationCard]`, `[data-cy=contractCard]`, `.tag-secondary-s`, age footer. The “Résultats proches” DOM marker changes all following cards to related. Direct numeric offer paths provide canonical URLs/IDs; details require matching canonical and JobPosting JSON-LD.
 

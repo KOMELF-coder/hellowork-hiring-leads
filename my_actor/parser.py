@@ -143,9 +143,53 @@ def enrich_detail(job, html, now=None):
     canonical = soup.select_one('link[rel=canonical]')
     if not canonical or validate_url(urljoin(job.url, canonical.get('href', '')), 'detail') != job.url:
         raise ParserRegressionError(f'Unexpected detail canonical for {job.url}')
-    data = next((p for p in postings if p.get('url') == job.url), None)
-    if not data:
-        raise ParserRegressionError(f'Expected matching public JobPosting JSON-LD: {job.url}')
+    def normalized_detail_url(value):
+        if not isinstance(value, str) or not value.strip():
+            return None
+        try:
+            candidate = validate_url(urljoin(job.url, value), 'detail')
+        except Exception:
+            return value.strip().rstrip('/')
+        return candidate.rstrip('/')
+
+    expected_url = normalized_detail_url(job.url)
+    data = next(
+        (
+            p for p in postings
+            if normalized_detail_url(p.get('url')) == expected_url
+            or normalized_detail_url(p.get('@id')) == expected_url
+        ),
+        None,
+    )
+
+    # HelloWork can expose a valid JobPosting whose URL serialization differs from
+    # the listing URL. Fall back to the stable numeric offer id before considering
+    # a single unambiguous JobPosting on the page.
+    if data is None and job.job_id:
+        id_pattern = re.compile(rf'(?:/|\\b){re.escape(str(job.job_id))}(?:\\.html)?(?:$|[/?#])')
+        candidates = []
+        for posting in postings:
+            references = [posting.get('url'), posting.get('@id')]
+            identifier = posting.get('identifier')
+            if isinstance(identifier, str):
+                references.append(identifier)
+            elif isinstance(identifier, dict):
+                references.extend([identifier.get('value'), identifier.get('name')])
+            if any(isinstance(ref, str) and id_pattern.search(ref) for ref in references):
+                candidates.append(posting)
+        if len(candidates) == 1:
+            data = candidates[0]
+
+    if data is None and len(postings) == 1:
+        data = postings[0]
+        job.warnings.append('JobPosting JSON-LD URL did not match exactly; used the single unambiguous JobPosting on the page.')
+
+    if data is None:
+        job.is_active = None
+        job.activity_evidence = 'missing_or_ambiguous_jobposting_jsonld'
+        job.warnings.append('No unambiguous matching public JobPosting JSON-LD; activity could not be verified and this job was excluded from scoring.')
+        return False
+
     valid = parse_datetime(data.get('validThrough'))
     job.is_active = valid > now if valid else None
     job.activity_evidence = 'jsonld_validThrough' if valid else 'unknown_validity'
@@ -172,3 +216,4 @@ def enrich_detail(job, html, now=None):
             country = address.get('addressCountry')
             if isinstance(country, str):
                 job.location['country'] = 'France' if country == 'FR' else country
+    return True

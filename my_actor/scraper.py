@@ -1,3 +1,4 @@
+import asyncio
 import logging
 from datetime import datetime, timezone
 
@@ -60,7 +61,7 @@ async def run(config, fetcher=None, now=None):
         metrics['unique_jobs'] = len(index.jobs)
         if metrics['raw_jobs'] > config.max_jobs:
             warnings.append('max_jobs reached; returned signal is a bounded sample.')
-        retained = []
+        candidates = []
         for job in index.jobs.values():
             # Excluded related observations cannot provide keywords or score evidence.
             evidence = [o for o in job.source_observations if o['match_type'] == 'exact' or config.include_related_results]
@@ -72,18 +73,36 @@ async def run(config, fetcher=None, now=None):
                 continue
             if config.contract_types and job.contract_type not in config.contract_types:
                 continue
-            if config.collect_job_details:
-                try:
-                    response = await fetcher.get(job.url, 'detail')
-                except PolicyError:
-                    job.is_active = None
-                    job.warnings.append('Public job detail disallowed; activity cannot be verified.')
-                else:
+            # If the listing already proves a job is older than the requested window,
+            # there is no value in spending a detail request just to exclude it later.
+            if job.posting_age_days is not None and job.posting_age_days > config.posted_within_days:
+                warnings.append('Jobs outside the date window or with unknown/lower-bound ages were excluded.')
+                continue
+            candidates.append(job)
+
+        if config.collect_job_details and candidates:
+            semaphore = asyncio.Semaphore(4)
+
+            async def enrich_one(job):
+                async with semaphore:
+                    try:
+                        response = await fetcher.get(job.url, 'detail')
+                    except PolicyError:
+                        job.is_active = None
+                        job.warnings.append('Public job detail disallowed; activity cannot be verified.')
+                        return
                     if response.status_code in (404, 410):
                         job.is_active = False
                         job.activity_evidence = f'http_{response.status_code}'
                     else:
                         enrich_detail(job, response.text, now)
+
+            # Preserve deterministic candidate order while allowing a small, polite
+            # number of detail requests to be in flight concurrently.
+            await asyncio.gather(*(enrich_one(job) for job in candidates))
+
+        retained = []
+        for job in candidates:
             if not job.title_keyword_matches and not job.description_keyword_matches:
                 if job.source_match_type != 'exact':
                     continue

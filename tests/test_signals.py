@@ -402,9 +402,21 @@ def test_future_and_unknown_validity():
     assert j.is_active is None
 
 
-def test_missing_detail_structure_fails():
-    with pytest.raises(ParserRegressionError):
-        enrich_detail(job(), '<html><h1>Oops</h1></html>', NOW)
+def test_missing_detail_structure_is_nonfatal():
+    j = job()
+    source = f'<html><link rel="canonical" href="{j.url}"><h1>Offre</h1></html>'
+    assert enrich_detail(j, source, NOW) is False
+    assert j.is_active is None
+    assert j.activity_evidence == 'missing_or_ambiguous_jobposting_jsonld'
+    assert any('JobPosting JSON-LD' in warning for warning in j.warnings)
+
+
+def test_single_jobposting_fallback_when_jsonld_url_differs():
+    j = job()
+    source = html('detail.html').replace(j.url, 'https://www.hellowork.com/fr-fr/emplois/different.html')
+    assert enrich_detail(j, source, NOW) is True
+    assert j.is_active is True
+    assert any('single unambiguous JobPosting' in warning for warning in j.warnings)
 
 
 def test_unknown_age_excluded_from_pipeline():

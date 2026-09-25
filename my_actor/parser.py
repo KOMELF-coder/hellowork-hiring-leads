@@ -202,7 +202,18 @@ def enrich_detail(job, html, now=None):
         job.posting_age_raw = data['datePosted']
         job.warnings = [w for w in job.warnings if w != 'Unknown or lower-bound posting age; no freshness points.']
     elif posted:
-        job.warnings.append('Future datePosted ignored.')
+        # HelloWork occasionally exposes a datePosted slightly ahead of the Actor
+        # clock, typically because of publication-time/timezone skew. Treat a small
+        # (<24h) skew as "today" instead of surfacing a noisy warning. Preserve the
+        # warning for genuinely future-dated records.
+        future_seconds = (posted - now).total_seconds()
+        if future_seconds <= 24 * 60 * 60:
+            job.posting_age_days = 0
+            job.posting_age_lower_bound_days = None
+            job.posting_age_raw = data['datePosted']
+            job.warnings = [w for w in job.warnings if w != 'Unknown or lower-bound posting age; no freshness points.']
+        else:
+            job.warnings.append('Future datePosted ignored.')
     description = BeautifulSoup(data.get('description', ''), 'html.parser').get_text(' ', strip=True)
     job.description_keyword_matches = matches(description, job.matched_search_keywords)
     job.possible_intermediary = intermediary(job.company, description)

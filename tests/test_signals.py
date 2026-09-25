@@ -393,9 +393,16 @@ def test_description_match_is_distinct():
 
 def test_future_and_unknown_validity():
     j = job()
+    source = html('detail.html').replace('2026-09-25T11:40:22Z', '2026-09-25T20:00:00Z')
+    enrich_detail(j, source, NOW)
+    assert j.posting_age_days == 0
+    assert 'Future datePosted ignored.' not in j.warnings
+
+    j = job()
     source = html('detail.html').replace('2026-09-25T11:40:22Z', '2030-09-25T11:40:22Z')
     enrich_detail(j, source, NOW)
     assert 'Future datePosted ignored.' in j.warnings
+
     j = job()
     source = html('detail.html').replace('2026-10-25T11:40:22Z', 'unknown')
     enrich_detail(j, source, NOW)

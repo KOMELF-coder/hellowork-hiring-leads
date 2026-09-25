@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 14:01:44 GMT
+Content-Type: text/plain
+Content-Length: 18567
+Connection: keep-alive
+Cache-Control: public,max-age=86400
+Last-Modified: Wed, 23 Sep 2026 11:50:18 GMT
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-Cache-Hits: 1367
+Accept-Ranges: bytes
+Age: 19681
+X-Cache: MISS
+
